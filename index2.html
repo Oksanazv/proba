@@ -1,0 +1,159 @@
+
+<html>
+<head>
+<style >
+
+body {
+	background-color: #ccc;
+} 
+* {
+  padding: 10px;
+  margin: 10px;
+  /*border : 2px #f00 solid;*/
+}
+@media (min-width: 700px){
+ .b1_2 {
+	/* width:  100px; */
+ }
+}
+@media (min-width: 800px){
+ .b1_2 {
+/*	width:  150px; */
+ }
+}
+@media (max-width: 699px){
+ .b1_2 {
+/*	width:  50px; */
+ }
+}
+.b1 , .b2
+{
+ display: flex;
+ justify-content: center;
+ flex-direction: column; 
+ font-family: sans-serif;/*1*/
+ background-color: #57d851;/*1*/
+ border: 1px white solid;
+}
+
+.b2_1 {
+	background-color: #15ee16;
+	border: 1px white solid;
+}
+.b2_1_1 {
+	text-align: center;
+}
+.b1_1 , .b1_2
+{
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+}
+.b1_1_1{
+	flex : 4;
+	text-align: center;/*1*/
+	text-shadow: 2px 2px 5px black;/*1*/
+	font-size: 30px;/*1*/
+}
+.b1_1_2{
+	flex: 1;
+}
+.b1_1_2 img{
+	width: 50%;/*1*/
+}
+.b1_2_1{
+	order : 2;
+	border: 1px white solid;
+	background-color: #57d851;
+}
+.b1_2_2{
+	order : 1;
+    border: 1px white solid;
+	background-color: #57d851;
+}
+.b1_2_3{
+	order : 4;
+    border: 1px white solid;
+	background-color: #57d851;
+}
+.b1_2_4{
+	order : 3;
+    border: 1px white solid;
+	background-color: #57d851;
+}
+.b1_2_5{
+	order : 5;
+	border: 1px white solid;
+	background-color: #57d851;
+}
+.b1_2 {
+	align-items: stretch;
+	text-align: center;/*1*/
+	background-color: #15ee16; 
+	border: 1px white solid;
+}
+.b1_2 div{
+	flex-basis: 9%;
+
+}
+.b3 {
+ border: 1px white solid;
+ background-color: #57d851;/*1*/
+ font-family: sans-serif;/*1*/
+ 
+}
+</style>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="b1">
+	<div class= "b1_1">
+		<div  class="b1_1_1">
+			<h1>Birdwatching</h1>
+		</div>
+		<div  class="b1_1_2">
+			<img src="example15.png">
+		</div>
+	</div>
+	<div class="b1_2">
+		<div  class="b1_2_1">
+			  <b>HOME</b>
+		</div>
+		<div  class="b1_2_2">
+			<b>GET STARTED</b>
+		</div>
+		<div  class="b1_2_3">
+			<b>PHOTOS</b>
+		</div>
+		<div  class="b1_2_4">
+			<b>GEAR</b>
+		</div>
+		<div  class="b1_2_5">
+			<b>FORUM</b>
+		</div>
+	</div>
+</div>
+
+<div class= "b2">
+    <div class="b2_1">
+	<h2 class="b2_1_1">WELCOME</h2>
+	<p>Welcome to our fake bird watching site, it would be the ideal place to come to learn more about birdwatching, whether you are beginner looking to learn how to get into birding, or an expert wanting to share ideas, tips, and photos with other like-minded people. </p>
+		<p> So don't waste time! Get what you need, then turn off that computer end get out into the great outdoors!</p>
+    </div>
+    <div class="b2_1">
+
+		<h2 class="b2_1_1">FAVOURITE PHOTOS</h2>
+
+		<img src="example11.png" width="125" height="125">
+		<img src="example12.png" width="125" height="125">
+		<img src="example13.png" width="125" height="125">
+		<img src="example14.png" width="125" height="125">
+
+	</div>
+</div>
+<div class="b3"><p>This fake website example is CCO - any part of this code may be reused in any way you wish. Original example written by Chris Mills, 2016</p>
+</div>
+
+</body>
+</html>
